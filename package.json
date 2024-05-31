@@ -1,0 +1,19 @@
+{
+  "name": "react-projects",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start:shopping-list": "cd 01-shopping-list && npm start",
+    "start:video-player": "cd 02-video-player && npm start",
+    "start:bmi-calculator": "cd 03-bmi-calculator && npm start",
+    "start:rock-paper-scissors": "cd 04-rock-paper-scissors && npm start",
+    "install:shopping-list": "cd 01-shopping-list && npm install",
+    "install:video-player": "cd 02-video-player && npm install",
+    "install:bmi-calculator": "cd 03-bmi-calculator && npm install",
+    "install:rock-paper-scissors": "cd 04-rock-paper-scissors && npm install",
+    "install:all": "npm run install:shopping-list && npm run install:video-player && npm run install:bmi-calculator && npm run install:rock-paper-scissors"
+  },
+  "dependencies": {
+    "react-scripts": "^5.0.1"
+  }
+}

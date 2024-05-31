@@ -1,0 +1,18 @@
+body {
+  background-color: #282C34;
+  font-family: 'Courier New', Courier, monospace;
+  color: white;
+  text-align: center;
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.menu div {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+}

@@ -1,0 +1,91 @@
+body {
+  background-color: #323033;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  color: #00bf51;
+}
+
+h3 {
+  color: #fff;
+  font-size: 25px;
+}
+
+.menu {
+  display: flex;
+  gap: 12px;
+}
+
+.shape-btn {
+  padding: 10px 16px;
+  border: none;
+  border-radius: 5px;
+  background-color: #00bf51;
+  color: #fff;
+  font-size: 20px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  transition: background-color 0.3s ease;
+}
+
+.shape-btn:hover {
+  background-color: #0e9245;
+}
+
+span {
+  margin-left: 10px;
+}
+
+.output-section {
+  margin-top: 50px;
+}
+
+.output-section p,
+.score-section div p {
+  color: #ffff;
+  font-size: 20px;
+  text-align: center;
+}
+
+.score-section {
+  display: flex;
+  gap: 50px;
+  margin-bottom: 50px;
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 20px;
+  }
+
+  h3 {
+    font-size: 18px;
+  }
+
+  .score-section div p {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 1024px) {
+  h1 {
+    font-size: 20px;
+  }
+
+  h3 {
+    font-size: 20px;
+  }
+
+  .score-section div p {
+    font-size: 18px;
+  }
+}
