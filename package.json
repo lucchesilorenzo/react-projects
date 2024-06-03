@@ -7,11 +7,13 @@
     "start:video-player": "cd 02-video-player && npm start",
     "start:bmi-calculator": "cd 03-bmi-calculator && npm start",
     "start:rock-paper-scissors": "cd 04-rock-paper-scissors && npm start",
+    "start:github-user-search": "cd 05-github-user-search && npm start",
     "install:shopping-list": "cd 01-shopping-list && npm install",
     "install:video-player": "cd 02-video-player && npm install",
     "install:bmi-calculator": "cd 03-bmi-calculator && npm install",
     "install:rock-paper-scissors": "cd 04-rock-paper-scissors && npm install",
-    "install:all": "npm run install:shopping-list && npm run install:video-player && npm run install:bmi-calculator && npm run install:rock-paper-scissors"
+    "install:github-user-search": "cd 05-github-user-search && npm install",
+    "install:all": "npm run install:shopping-list && npm run install:video-player && npm run install:bmi-calculator && npm run install:rock-paper-scissors && npm run install:github-user-search"
   },
   "dependencies": {
     "react-scripts": "^5.0.1"

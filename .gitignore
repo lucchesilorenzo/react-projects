@@ -4,6 +4,7 @@ node_modules/
 02-video-player/node_modules/
 03-bmi-calculator/node_modules/
 04-rock-paper-scissors/node_modules/
+05-github-user-search/node_modules/
 
 # Build directories
 build/
@@ -11,6 +12,7 @@ build/
 02-video-player/build/
 03-bmi-calculator/build/
 04-rock-paper-scissors/build/
+05-github-user-search/build/
 
 # Dependency directories
 .pnp

@@ -32,6 +32,14 @@
 
 ---
 
+5. **GitHub User Search**
+
+   - GitHub User Search allows users to search for GitHub profiles by username. This app fetches data from the GitHub API and displays user information including their avatar and a link to their GitHub profile.
+
+   ![GitHub User Search Screenshot](screenshots/05-github-user-search.PNG)
+
+---
+
 ## Installation
 
 To install dependencies for all projects, run:
