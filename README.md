@@ -75,3 +75,9 @@ npm run start:bmi-calculator
 ```bash
 npm run start:rock-paper-scissors
 ```
+
+**GitHub User Search**
+
+```bash
+npm run start:github-user-search
+```
